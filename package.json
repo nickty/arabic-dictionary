@@ -1,6 +1,6 @@
 {
   "name": "arabic-dictionary",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A package to search for Arabic words by their English meanings.",
   "main": "index.js",
   "files": [
