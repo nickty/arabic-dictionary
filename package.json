@@ -1,11 +1,15 @@
 {
   "name": "arabic-dictionary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package to search for Arabic words by their English meanings.",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "data.json"
+  ],
   "scripts": {
     "test": "node test.js"
   },
-  "author": "Mizanur Rahman",
+  "author": "Mizanur Rahman Nickty",
   "license": "MIT"
 }

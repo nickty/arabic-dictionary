@@ -1,10 +1,8 @@
-const fs = require("fs");
-const path = require("path");
+const data = require("./data.json");
 
 class ArabicDictionary {
   constructor() {
-    const dataPath = path.join(__dirname, "data.json");
-    this.data = JSON.parse(fs.readFileSync(dataPath, "utf8"));
+    this.data = data;
   }
 
   search(word) {
